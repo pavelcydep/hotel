@@ -3,7 +3,27 @@
   <head>
     <title>Отель</title>
     <style>.header {
-  background: blue;
+  background: #f9f9fc;
+  width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__button {
+  margin-right: 5%;
+  margin-bottom: 5%;
+  width: 10%;
+}
+
+.nav__button:nth-child(7n) {
+  margin-right: 0;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body {
@@ -17,11 +37,13 @@ body {
       <div class="header"> <a href="#"><img src="images/logo.png" alt="логотип"></a>
         <nav>    
           <ul class="nav"> 
-            <li class="nav-item"> <a class="nav-link" href="#">О нас</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Услуги </a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Вакансии     </a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Новости  </a></li>
-            <li class="nav-item"> <a class="nav-link" href="#">Соглашения      </a></li>
+            <li class="nav__button"><a class="nav-link" href="#">О нас</a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Услуги </a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Вакансии     </a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Новости  </a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Соглашения      </a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Войти     </a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Зарегистрироваться     </a></li>
           </ul>
         </nav>
       </div>
