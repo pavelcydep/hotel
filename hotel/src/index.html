@@ -1,17 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></title>
-    <script type="text/javascript">if (foo) bar(1 + 5);</script>
+    <title>Отель</title>
+    <style>.header {
+  background: #f9f9fc;
+  width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__button {
+  margin-right: 5%;
+  margin-bottom: 5%;
+  width: 10%;
+}
+
+.nav__button:nth-child(7n) {
+  margin-right: 0;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body {
+  background: #E5E5E5;
+}
+/*# sourceMappingURL=styles.css.map */
+    </style>
   </head>
   <body>
-    <h1>Pug - node template engine</h1>
-    <div class="col" id="container">
-      <p>Get on it!</p>
-      <p>
-        Pug is a terse and simple templating language with a
-        strong focus on performance and powerful features.
-      </p>
+    <div class="header"> 
+      <div class="header"> <a href="#"><img src="images/logo.png" alt="логотип"></a>
+        <nav>    
+          <ul class="nav"> 
+            <li class="nav__button"><a class="nav-link" href="#">О нас</a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Услуги </a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Вакансии     </a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Новости  </a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Соглашения      </a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Войти     </a></li>
+            <li class="nav__button"><a class="nav-link" href="#">Зарегистрироваться     </a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
+    <footer> 
+      <div class="footer">
+        <h1>Подвал сайта</h1>
+      </div>
+    </footer>
   </body>
 </html>

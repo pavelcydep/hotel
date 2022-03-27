@@ -1,0 +1,14 @@
+@mixin headerContainer($cols,$margin) {
+    display:flex;
+    margin-right:$margin;
+    margin-bottom:$margin;
+    width: ((100%-(($cols - 1) * $margin))/$cols);
+    &:nth-child(#{$cols}n){
+        margin-right:0;
+    }
+    
+}
+
+.nav__button{
+@include headerContainer(7, 2%);
+}

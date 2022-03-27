@@ -1,0 +1,28 @@
+.header {
+  background: #f9f9fc;
+  width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__button {
+  margin-right: 5%;
+  margin-bottom: 5%;
+  width: 10%;
+}
+
+.nav__button:nth-child(7n) {
+  margin-right: 0;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body {
+  background: #E5E5E5;
+}
+/*# sourceMappingURL=styles.css.map */

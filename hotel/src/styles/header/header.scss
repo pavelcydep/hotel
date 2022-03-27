@@ -1,0 +1,11 @@
+
+$bgColor:rgb(249, 249, 252);
+$bgWidth:1440px;
+$bgHeight:200px;
+
+
+.header{
+background:$bgColor;
+width:$bgWidth ;
+display: flex;
+}
